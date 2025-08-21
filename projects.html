@@ -1,30 +1,119 @@
-<div class="projects">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Harshal Jain</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #222;
+      color: #fff;
+    }
+    h1 {
+      margin: 0;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 1.4rem;
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+    .emoji {
+      font-size: 1.6rem;
+      margin-right: 8px;
+    }
+    .skills {
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+    .skills span {
+      background: #eef;
+      padding: 5px 10px;
+      margin: 4px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <p>Explore my applied Machine Learning, AI, and Analytics work</p>
+  </header>
 
-  <div class="card">
-    <h3><a href="insurance.html">📈 Insurance Claim Prediction</a></h3>
-    <p>
-      Predicting insurance claim amounts using ML models to help insurers 
-      improve pricing strategies and risk assessment.
-    </p>
-    <p><b>Skills:</b> Python · SQL · ML · Tableau</p>
-  </div>
+  <main>
+    <section class="projects">
+      
+      <!-- Insurance Claim -->
+      <a href="insurance.html">
+        <div class="card">
+          <h2><span class="emoji">📊</span>Insurance Claim Prediction</h2>
+          <p><strong>Problem Statement:</strong> Predict claim amounts to optimize pricing strategies and risk assessment for insurers.</p>
+          <p><strong>Aim:</strong> Build robust ML models to enhance fraud detection and fair claim settlement.</p>
+          <div class="skills">
+            <span>Python</span><span>SQL</span><span>ML</span><span>Tableau</span>
+          </div>
+        </div>
+      </a>
+      
+      <!-- Stroke Risk -->
+      <a href="stroke.html">
+        <div class="card">
+          <h2><span class="emoji">🧠</span>Stroke Risk Prediction</h2>
+          <p><strong>Problem Statement:</strong> Identify patients at high risk of stroke using clinical and lifestyle data.</p>
+          <p><strong>Aim:</strong> Develop predictive models for early detection and healthcare intervention.</p>
+          <div class="skills">
+            <span>Python</span><span>Power BI</span><span>Statistics</span><span>ML</span>
+          </div>
+        </div>
+      </a>
+      
+      <!-- Delivery Risk -->
+      <a href="delivery.html">
+        <div class="card">
+          <h2><span class="emoji">🚚</span>E-Commerce Delivery Risk Prediction</h2>
+          <p><strong>Problem Statement:</strong> Predict and minimize delivery delays in e-commerce logistics.</p>
+          <p><strong>Aim:</strong> Leverage ML to optimize delivery planning and enhance customer satisfaction.</p>
+          <div class="skills">
+            <span>Python</span><span>AWS (S3, Glue, Athena)</span><span>ML</span>
+          </div>
+        </div>
+      </a>
 
-  <div class="card">
-    <h3><a href="stroke.html">🧠 Stroke Risk Prediction</a></h3>
-    <p>
-      Developed ML-based predictive models to identify individuals at high risk 
-      of stroke using health metrics like blood pressure and glucose levels.
-    </p>
-    <p><b>Skills:</b> Python · Power BI · Statistics · ML</p>
-  </div>
+    </section>
+  </main>
 
-  <div class="card">
-    <h3><a href="delivery.html">🚚 E-Commerce Delivery Risk Prediction</a></h3>
-    <p>
-      Built machine learning models to predict order delays, optimize logistics, 
-      and enhance customer satisfaction in e-commerce.
-    </p>
-    <p><b>Skills:</b> Python · AWS (S3, Glue, Athena) · ML</p>
-  </div>
-
-</div>
+  <footer style="text-align:center; padding:1rem; background:#222; color:#fff;">
+    <p>© 2025 Harshal Jain | Projects Showcase</p>
+  </footer>
+</body>
+</html>
