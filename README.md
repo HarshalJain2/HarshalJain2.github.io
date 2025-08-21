@@ -26,3 +26,7 @@ Hi, I'm **Your Name** 👋
 
 ## 📂 Project Structure
 
+yourusername.github.io/
+│── index.html # Main website file
+│── README.md # Documentation (this file)
+│── assets/ # (optional) images, css, js
