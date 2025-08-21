@@ -5,10 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume - Harshal Jain</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #222;
+      color: #fff;
+    }
+    nav {
+      text-align: center;
+      background: #444;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a.active {
+      text-decoration: underline;
+      color: #ffd700;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #0077cc;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 15px;
+      padding: 12px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+    b {
+      color: #222;
+    }
+    .skills span {
+      display: inline-block;
+      background: #eef6ff;
+      color: #0077cc;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .download {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .download a {
+      display: inline-block;
+      background: #0077cc;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .download a:hover {
+      background: #005fa3;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Resume / Experience</h1>
+    <p>Harshal Jain – Data Scientist | Analyst | ML & AI Enthusiast</p>
   </header>
 
   <nav>
@@ -20,26 +113,83 @@
   </nav>
 
   <main>
-    <h3>Education</h3>
-    <p>Bachelor’s / Master’s in [Your Field] – [Your University]</p>
+    <!-- Education -->
+    <section class="section">
+      <h2>🎓 Education</h2>
+      <ul>
+        <li>
+          <b>Post Graduate Program in Data Science & Engineering</b> – Great Lakes Institute of Management (Great Learning), 2024  
+        </li>
+        <li>
+          <b>Bachelor’s in Computer Science</b> – [Your University Name], [Year of Completion]  
+        </li>
+      </ul>
+    </section>
 
-    <h3>Experience</h3>
-    <ul>
-      <li><b>Data Science Intern</b> – Company XYZ (Jan 2024 – Jun 2024)</li>
-      <li><b>Machine Learning Project</b> – Capstone Project (2025)</li>
-    </ul>
+    <!-- Experience -->
+    <section class="section">
+      <h2>💼 Professional Experience</h2>
+      <ul>
+        <li>
+          <b>Analyst L3 – Data Scientist</b> – Elixir Strategic Management Pvt. Ltd. (Jan 2024 – Present)  
+          <br>
+          <i>Full-time | Data Scientist | Analyst</i>
+          <br><br>
+          • Building and deploying ML models for business insights and predictions.  
+          • Performing advanced data analysis using Python, SQL, and statistical methods.  
+          • Leveraging AWS services (S3, Glue, Athena, QuickSight) for scalable data processing.  
+          • Expertise in Time Series Forecasting, NLP, and Deep Learning solutions.  
+          • Developed dashboards and reports with Power BI for decision-making.  
+          • Collaborated with cross-functional teams to deliver end-to-end AI solutions.  
+        </li>
+        <li>
+          <b>Capstone Project – Machine Learning</b> (2025)  
+          <br>
+          • Designed and implemented ML pipelines for predictive modeling.  
+          • Applied MLOps for experiment tracking and reproducibility.  
+          • Delivered business-oriented insights with optimized ML models.  
+        </li>
+      </ul>
+    </section>
 
-    <h3>Certifications</h3>
-    <ul>
-      <li>Certified in Python for Data Science</li>
-      <li>ML with Scikit-Learn (Coursera/edX/other)</li>
-    </ul>
+    <!-- Skills -->
+    <section class="section">
+      <h2>🛠 Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Power BI</span>
+        <span>Statistics</span>
+        <span>Machine Learning</span>
+        <span>Deep Learning</span>
+        <span>Natural Language Processing (NLP)</span>
+        <span>Time Series Analysis</span>
+        <span>AWS S3</span>
+        <span>AWS Glue</span>
+        <span>AWS Athena</span>
+        <span>AWS QuickSight</span>
+        <span>Git</span>
+      </div>
+    </section>
 
-    <p>📄 <a href="resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+    <!-- Certifications -->
+    <section class="section">
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>Python for Data Science – [Issuer]</li>
+        <li>Machine Learning with Scikit-Learn – Coursera</li>
+        <li>AWS Cloud Practitioner – Amazon Web Services</li>
+      </ul>
+    </section>
+
+    <!-- Download Resume -->
+    <div class="download">
+      📄 <a href="resume.pdf" target="_blank">Download My Resume (PDF)</a>
+    </div>
   </main>
 
   <footer>
-    <p>© 2025 Harshal Jain</p>
+    <p>© 2025 Harshal Jain | Resume</p>
   </footer>
 </body>
 </html>
