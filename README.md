@@ -1,2 +1,28 @@
 # HarshalJain2.github.io
-Portfolio website showcasing my Machine Learning, Data Science, and Development projects.
+
+# 🌐 My Portfolio Website
+
+Welcome to my personal portfolio website hosted on **GitHub Pages**.  
+This site highlights my **projects, skills, and contact information**.
+
+🔗 **Live Website:** [https://yourusername.github.io](https://yourusername.github.io)
+
+---
+
+## 📖 About Me
+Hi, I'm **Your Name** 👋  
+- 🎓 Background: (e.g., Computer Science / Data Science)  
+- 💻 Skills: Python, Machine Learning, Flask, React, SQL  
+- 🚀 Interests: AI, Data Engineering, Web Development  
+
+---
+
+## 🚀 Features
+- Responsive single-page website  
+- Sections: Home, About, Projects, Contact  
+- Showcases ML & Data Science projects  
+
+---
+
+## 📂 Project Structure
+
