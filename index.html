@@ -1,156 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Harshal Jain - Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background: #222;
-      color: #fff;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    header h1 { margin: 0; font-size: 3rem; }
-    header p { margin: 1rem 0 0; font-size: 1.2rem; }
-    nav {
-      background: #444;
-      padding: 1rem;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 3rem 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .card h3 { margin-top: 0; }
-    .resume {
-      background: #fff;
-      border-radius: 10px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    footer {
-      text-align: center;
-      background: #222;
-      color: #fff;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Home / Intro -->
-  <header id="home">
+  <header>
     <h1>Harshal Jain</h1>
-    <p>Data Analyst | Generative AI Practitioner | Data Scientist | Machine Learning Engineer | MLOps Engineer | Developer</p>
+    <p>Data Analyst | Generative AI Enthusiast | Data Scientist | Machine Learning Engineer | MLOps Engineer | Developer</p>
   </header>
 
-  <!-- Navigation -->
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Hi, I’m <b>Harshal Jain</b>. I specialize in Machine Learning, Data Science, and Software Development. 
-      My interests include building intelligent systems, analyzing data, and deploying real-world AI solutions. 
-      I enjoy learning new technologies and applying them to solve practical problems.
-    </p>
-    <p><b>Skills:</b> Python, Pandas, Scikit-Learn, Flask, SQL, Git, Docker</p>
-  </section>
+  <main>
+    <h2>Welcome</h2>
+    <p>Welcome to my portfolio website! Explore my background, projects, resume, and feel free to connect with me.</p>
+  </main>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>🏡 House Price Prediction</h3>
-        <p>ML model to predict house prices using Scikit-Learn & Flask.</p>
-        <a href="https://github.com/HarshalJain2/house-price-prediction" target="_blank">View Project</a>
-      </div>
-      <div class="card">
-        <h3>💳 Loan Fraud Detection</h3>
-        <p>Developed a fraud detection model with high accuracy using Python.</p>
-        <a href="https://github.com/HarshalJain2/loan-fraud-detection" target="_blank">View Project</a>
-      </div>
-      <div class="card">
-        <h3>📊 IPL Data Analysis</h3>
-        <p>Performed exploratory analysis of IPL matches dataset with Pandas & Matplotlib.</p>
-        <a href="https://github.com/HarshalJain2/ipl-analysis" target="_blank">View Project</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Resume / Experience -->
-  <section id="resume">
-    <h2>Resume / Experience</h2>
-    <div class="resume">
-      <h3>Education</h3>
-      <p>Bachelor’s / Master’s in [Your Field] – [Your University]</p>
-
-      <h3>Experience</h3>
-      <ul>
-        <li><b>Data Science Intern</b> – Company XYZ (Jan 2024 – Jun 2024)</li>
-        <li><b>Machine Learning Project</b> – Capstone Project (2025)</li>
-      </ul>
-
-      <h3>Certifications</h3>
-      <ul>
-        <li>Certified in Python for Data Science</li>
-        <li>ML with Scikit-Learn (Coursera/edX/other)</li>
-      </ul>
-
-      <p>📄 <a href="resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="7057065816">
-    <h2>Contact</h2>
-    <p>📧 Email: jainharshal1997@gmail.com</p>
-    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/harshal-sanklecha" target="_blank">linkedin.com/in/yourprofile</a></p>
-    <p>💻 GitHub: <a href="https://github.com/HarshalJain2" target="_blank">github.com/HarshalJain2</a></p>
-  </section>
-
-  <!-- Footer -->
   <footer>
     <p>© 2025 Harshal Jain | Made with ❤️ using GitHub Pages</p>
   </footer>
