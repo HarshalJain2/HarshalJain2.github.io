@@ -5,7 +5,7 @@
 Welcome to my personal portfolio website hosted on **GitHub Pages**.  
 This site highlights my **projects, skills, and contact information**.
 
-🔗 **Live Website:** [https://yourusername.github.io](https://HarshalJain2.github.io)
+🔗 **Live Website:** [https://HarshalJain2.github.io](https://HarshalJain2.github.io)
 
 ---
 
