@@ -28,5 +28,7 @@ Hi, I'm **Your Name** 👋
 
 yourusername.github.io/
 │── index.html # Main website file
+
 │── README.md # Documentation (this file)
+
 │── assets/ # (optional) images, css, js
