@@ -5,14 +5,14 @@
 Welcome to my personal portfolio website hosted on **GitHub Pages**.  
 This site highlights my **projects, skills, and contact information**.
 
-🔗 **Live Website:** [https://yourusername.github.io](https://yourusername.github.io)
+🔗 **Live Website:** [https://yourusername.github.io](https://HarshalJain2.github.io)
 
 ---
 
 ## 📖 About Me
 Hi, I'm **Your Name** 👋  
 - 🎓 Background: (e.g., Computer Science / Data Science)  
-- 💻 Skills: Python, Machine Learning, Flask, React, SQL  
+- 💻 Skills: Python, Machine Learning, Data Scienece,MLOps Flask, React, SQL  
 - 🚀 Interests: AI, Data Engineering, Web Development  
 
 ---
